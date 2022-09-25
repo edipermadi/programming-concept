@@ -1,10 +1,11 @@
 # Data Types
 
-| Type    | Example     |
-|---------|-------------|
-| integer | 1, 2, 3     |
-| float   | 3.14, 1.618 |
-| bool    | true, false |
+| Type    | Example     | Notes |
+|---------|-------------|-------|
+| integer | 1, 2, 3     |       |
+| float   | 3.14, 1.618 | https://en.wikipedia.org/wiki/IEEE_754 |
+| bool    | true, false |       |
+| string  | "hello"     |       |
 
 ## Declaration
 
@@ -20,11 +21,54 @@ a = 1
 a = 3.14
 ```
 
-### Declaring Boolean
+### Boolen 
+
+#### Declaring
 
 ```python
 a = True
 ```
+
+
+### String
+
+Bermula dari table ASCII, berkembang ke Unicode
+
+#### Declaration
+
+```python
+name = "Alex"
+name = 'Bob'
+address = """
+Line 1
+Line 2
+Line 3
+
+"""
+address = '''
+Line 1
+Line 2
+Line 3
+
+'''
+```
+
+#### Operator
+
+| Operator | Action      |
+|----------|-------------|
+| +        | Concatenate |
+| *        | Multiply    |
+| <        | Less Than   |
+| >        | Greater     |
+| <=       | Less Than or Equal  |
+| >=       | Greater Than or Equal |
+
+#### Escape Sequence
+
+| \n | New line       |
+|----|----------------|
+| \t | Horizontal Tab |
 
 # Operator
 - add (+)
@@ -38,6 +82,7 @@ a = True
 - greater than or equal (>=)
 - less than (<)
 - less than or equal (<=)
+- equality (==)
 
 
 # Casting
